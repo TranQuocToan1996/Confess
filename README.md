@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a simple project to confess with your crush. Good luck!
 
 ## Getting Started
 
-First, run the development server:
+First, replace your own image in /public folder. Next, be sure to change the title in Confess.tsx.
+
+To run the development server:
 
 ```bash
 npm run dev

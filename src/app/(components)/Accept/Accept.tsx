@@ -2,7 +2,7 @@ import Image from "next/image"
 
 type AcceptProps = {}
 
-const Confess = (props: AcceptProps) => {
+const Accept = (props: AcceptProps) => {
     return (
         <div className="flex flex-col justify-center items-center h-full">
             <Image src={"/accept.png"} height={100} width={100} alt="accept img" />
@@ -11,4 +11,4 @@ const Confess = (props: AcceptProps) => {
     )
 }
 
-export default Confess
+export default Accept
