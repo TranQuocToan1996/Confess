@@ -48,7 +48,7 @@ const Confess = (props: ConfessProps) => {
     if (confessStates.isAccept) return <Accept />
     return (
         <div className="flex flex-col justify-center items-center">
-            <Image src={"/confess.png"} height={100} width={100} alt="confess img" />
+            <Image src={"./confess.png"} height={100} width={100} alt="confess img" />
             <p className="h-20">Will you be a Selenophile?</p>
             <div className={`flex justify-center items-center gap-4`}>
                 <button className={`text-white rounded bg-green-400 hover:bg-green-600 p-2`}
